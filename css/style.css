@@ -1,0 +1,630 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-size: cover;
+}
+body h1{
+    margin-top: 15%;
+    color: rgb(132, 245, 161);
+    margin-left: 5%;
+    font-family: cursive;
+}
+body h2{
+    margin-top: 0%;
+    color: rgb(149, 240, 45);
+    margin-left: 5%; 
+    font-family: cursive;  
+}     
+header{
+    background-color:rgb(194, 209, 212);
+    opacity: 0.5;
+}
+.head-tag{
+    float: right;
+    margin-top: 44px;
+    margin-right: 24px;
+}
+.head-tag a{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 25%;
+    padding: 8px;
+    margin-right: 8px;
+}
+.head-tag a:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.back{
+    background-color:rgb(194, 209, 212);
+    opacity: 0.5;
+    height: 3em;  
+}
+.back1{
+    float: left;
+    margin-top: 13px;
+    margin-right: 24px;
+}
+.back2{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 25%;
+    padding: 8px;
+    margin-right: 8px;
+}
+.back a:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.search-content{
+    float: right;
+    margin-top: 44px;
+    margin-right: 44px;
+}
+.search-bar{
+    background-color: white;
+}
+.login{
+    border: 2px solid green;
+    float: right;
+    background-color: rgb(78, 99, 116);
+    border-radius: 15%;
+    height: 18em;
+    width: 12em;
+   margin-top: 10%;
+   margin-right: 41%;
+   padding: 40px;
+}
+.login h2{
+    text-align: center;
+    height: 1.5em;
+}
+.login #login-button{
+    width: 100%;
+    height: 1.8em;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+}
+.login a{
+    color: yellowgreen;
+}
+
+.signup{
+    border: 2px solid green;
+    float: right;
+    background-color: rgb(78, 99, 116);
+    border-radius: 8%;
+    height: 25em;
+    width: 12em;
+   margin-top: 6%;
+   margin-right: 41%;
+   padding: 40px;
+}
+.signup h2{
+    text-align: center;
+    height: 1.5em;
+}
+.signup #login-button{
+    width: 100%;
+    height: 1.8em;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+}
+.about h1{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(15, 199, 15);
+}
+.about h2{
+    color: rgb(204, 200, 200);
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.about-kerala{
+    margin-top: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.districts h1{
+    color: green;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.trivandrum{
+    background-image: url("https://irisholidays.com/backend/web/tours/trivandrum-kerala-1528612937.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.tvm2{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: relative;
+}
+.tvm1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.tvm h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.kollam{
+    background-image: url("https://www.keralatourism.org/images/picture/large/Kollam_Beach_1715.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.kollam-district2{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: relative;
+}
+.kollam-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.kollam-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.pathanamthitta{
+    background-image: url("https://www.keralatravels.com/userfiles/1475817533_Thekkady.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pathanamthitta-district2{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: relative;
+}
+.pathanamthitta-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.pathanamthitta-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.alappuzha{
+    background-image: url("https://www.ekeralatourism.net/wp-content/uploads/2019/01/idealyime-alleppey.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.alappuzha-district2{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: relative;
+}
+.alappuzha-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.alappuzha-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.kottayam{
+    background-image: url("https://www.sreestours.com/blog/wp-content/uploads/2014/04/vagamon-wagamon-tourist-places-in-kerala-870x342.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.kottayam-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.kottayam-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.kottayam-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.idukki{
+    background-image: url("http://1.bp.blogspot.com/-0e_oP2Z8Uy8/UgRi9T3r4ZI/AAAAAAAAAJ4/cSL1IqCZeK4/s1600/idukidam.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.idukki-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.idukki-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.idukki-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.ernakulam{
+    background-image: url("https://ak.jogurucdn.com/media/image/p17/place-2016-10-13-6-9202dd25f87c7045bb691e960bca4b6b.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ernakulam-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.ernakulam-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.ernakulam-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.thrissure{
+    background-image: url("https://www.holidify.com/images/compressed/5038.JPG");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thrissure-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.thrissure-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.thrissure-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.palakkad{
+    background-image: url("http://thinkingparticle.com/sites/default/files/imagecache/node-gallery-display/1.%20Palakkad%20Fort%20(Tipu's%20Fort)%2C%20Palakkad.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.palakkad-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.palakkad-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.palakkad-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.malappuram{
+    background-image: url("http://www.kerala.com/userfiles/1544170020_Nilambur.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.malappuram-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.malappuram-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.malappuram-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.Kozhikode{
+    background-image: url("https://yometro.com/images/places/kozhikode-beach.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Kozhikode-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.Kozhikode-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.Kozhikode-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.wayanad{
+    background-image: url("https://www.wayanad.com/files/slides/2064569462.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wayanad-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.wayanad-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.wayanad-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.kannur{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/09/fb/87/a2/fort-st-angelos.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.kannur-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.kannur-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.kannur-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.kasaragod{
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/cc/4c/8b/bekal-view.jpg?w=1200&h=-1&s=1");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.kasaragod-district2{
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    position: relative;
+}
+.kasaragod-district1{
+    position: absolute;
+    left: 37%;
+    margin-top: 5%;
+    color: blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.kasaragod-district h2{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: black;
+    margin-right: 5%;
+}
+.backcover{
+    position: absolute;
+    left: 7%;
+}
+button{
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.card{
+    position: absolute;
+    top: 25%;
+    
+}
+.card-img-top{
+    width: 15rem;
+    object-fit: cover;
+}
+.card-img-overlay{
+ margin-top: 48%;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
