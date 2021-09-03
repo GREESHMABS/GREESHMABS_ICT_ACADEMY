@@ -9,13 +9,13 @@ function validate(){
     email.style.border="none";
     checkbody.innerHTML="";
 
-    if(email.Value=="" && pwd.value==""){
+    if(email.value=="" && pwd.value==""){
         alert("fields cannot be empty");
         pwd.style.border="2px solid red";
         email.style.border="2px solid red";
         return false;
     }
-    else if(email.Value==""){
+    else if(email.value==""){
         alert("Email cannot be empty!");
         email.style.border="2px solid red";
         return false;
@@ -26,7 +26,7 @@ function validate(){
         checkbody.style.color="red";
         return false;
     }
-    if(pwd.value==""){
+    else if(pwd.value==""){
         alert("Password cannot be empty!");
         pwd.style.border="2px solid red";
         return false;
@@ -44,7 +44,7 @@ function validate(){
     }
     else{
         alert("Success!");
-        document.getElementById("loginform").action = "intex.html";
+        document.getElementById("loginform").action = "Intex.html";
         return true;
     }
 }
