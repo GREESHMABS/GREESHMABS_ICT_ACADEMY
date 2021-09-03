@@ -4,7 +4,7 @@
 <a class="back2" href="login.html">Back</a>
 </header>
 <!--Sign Up Form-->
-<form action="#" class="signup">
+<form action="#"  id="signupform" class="signup" onsubmit="signup();">
     <link rel="stylesheet" href="css/style.css">
     <body background="resouces\photo-1604078175342-6d15d9429704.jpg"></body>
     <h2>Sign Up</h2>
@@ -12,41 +12,44 @@
     <div class="login-content">
         <label>First Name</label>
         <br>
-        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="First Name" id="firstname">
     </div>
     <br>
     <div class="login-content">
         <label>LastName</label>
         <br>
-        <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="Last Name" id="lastname">
     </div>
     <br>
     <div class="login-content">
         <label>Email</label>
         <br>
-        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Email" id="emailid">
+        <label for="checkbody" id="checkbody"></label>
     </div>
     <br>
     <div class="login-content">
         <label>Mobile No</label>
         <br>
-        <input type="number" placeholder="Mobile No">
+        <input type="tel" placeholder="Mobile No" id="phonenumber">
     </div>
     <br>
     <div class="login-content">
         <label>Password</label>
         <br>
-        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Password" id="pwd">
+        <label for="pass" id="pass"></label>
     </div>
     <br>
     <div class="login-content">
         <label> Retype Password</label>
         <br>
-        <input type="password" placeholder="Retype Password">
+        <input type="password" placeholder="Retype Password" id="retypepassword">
     </div>
      <br>
     <div>
-        <button id="login-button">Submit</button>
+        <button id="submit">Submit</button>
     </div>
     </form>
+    <script src="form1.js"></script>
 <!--/Sign Up Form-->
