@@ -4,7 +4,7 @@
 <a class="back2" href="Intex.html">Back</a>
 </header>
 <!--Login Form-->
-<form action="#" class="login">
+<form action="#" id="loginform" class="login" onsubmit="validate();">
     <link rel="stylesheet" href="css/style.css">
     <body background="resouces\1635201.jpg"></body>
     <h2>User login</h2>
@@ -12,21 +12,22 @@
     <div class="login-content">
         <label>Email Address</label>
         <br>
-        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Email" id="email">
     </div>
     <br>
     <div class="login-content">
         <label>Password</label>
         <br>
-        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Password" id="pwd">
     </div>
     <div class="check-box">
         <input type="checkbox">
         <label>Remember</label>
     </div>
     <br>
+    <label for="checkbody" id="checkbody"></label>
     <div>
-        <button id="login-button">Submit</button>
+        <button id="submit">Submit</button>
     </div>
     <br>
     <div class="login-misc"></div>
@@ -34,4 +35,5 @@
     <a href="signup.html">Sign Up</a>
     </div>
 </form>
+<script src="form.js"></script>
 <!--/Login Form-->
